@@ -3,6 +3,11 @@
 
 https://micro-frontends.org/
 
+## 书籍
+
+* 微前端设计与实现  https://weread.qq.com/web/bookDetail/92d32b60813ab70ccg010da8
+* 前端架构：从入门到微前端  链接：https://pan.baidu.com/s/11VNdZ-0xQeHjG500jkjbmw?pwd=ptoj   提取码：ptoj
+
 ## 微前端框架
 * Single-SPA：是一个用于前端微服务化的JavaScript前端解决方案，实现了路由劫持和应用加载，但是没有处理样式隔离，js执行隔离。https://github.com/single-spa/single-spa
 * qiankun：基于Single-SPA提供了更多开箱即用的API（single-spa + sandbox + import-html-entry），做到了与技术栈无关，并且接入简单，靠的是协议接入（子应用必须导出bootstrap、mount、unmount方法）。 https://github.com/umijs/qiankun
