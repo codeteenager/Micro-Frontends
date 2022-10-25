@@ -17,6 +17,7 @@ https://micro-frontends.org/
 * 字节的Garfish：https://github.com/modern-js-dev/garfish
 * 阿里的icestark：https://github.com/ice-lab/icestark
 * 京东的MicroApp：https://zeroing.jd.com/micro-app/
+* EMP：https://github.com/efoxTeam/emp
 
 ## 相关文章
 * [微前端在平台级管理系统中的最佳实践](https://blog.csdn.net/zybank_IT/article/details/120040742)
