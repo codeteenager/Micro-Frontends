@@ -1,2 +1,32 @@
 # Micro-Frontends
 微前端实践
+
+https://micro-frontends.org/
+
+## 微前端框架
+* Single-SPA：是一个用于前端微服务化的JavaScript前端解决方案，实现了路由劫持和应用加载，但是没有处理样式隔离，js执行隔离。https://github.com/single-spa/single-spa
+* qiankun：基于Single-SPA提供了更多开箱即用的API（single-spa + sandbox + import-html-entry），做到了与技术栈无关，并且接入简单，靠的是协议接入（子应用必须导出bootstrap、mount、unmount方法）。 https://github.com/umijs/qiankun
+* 腾讯的hel-micro：https://github.com/tnfe/hel
+* 腾讯的无界：https://github.com/Tencent/wujie
+* 美团的Bifrost：[Bifrost微前端框架](https://tech.meituan.com/2019/12/26/meituan-bifrost.html)
+* 字节的Garfish：https://github.com/modern-js-dev/garfish
+* 阿里的icestark：https://github.com/ice-lab/icestark
+* 京东的MicroApp：https://zeroing.jd.com/micro-app/
+
+## 相关文章
+* [微前端在平台级管理系统中的最佳实践](https://blog.csdn.net/zybank_IT/article/details/120040742)
+* [微前端在银行系统中的实践](https://blog.csdn.net/zybank_IT/article/details/120002659)
+* [如何落地微前端一体化运营工作台](https://www.bilibili.com/read/cv7859354/)
+* [微前端在金融的实践应用](https://mp.weixin.qq.com/s/emZbpCSYtUdvPeZ_aUyVEw)
+* [基于 qiankun 的微前端最佳实践（万字长文） - 从 0 到 1 篇](https://github.com/a1029563229/blogs/blob/master/BestPractices/qiankun/Start.md)
+* [基于 qiankun 的微前端最佳实践（图文并茂） - 应用间通信篇](https://github.com/a1029563229/blogs/blob/master/BestPractices/qiankun/Communication.md)
+* [基于 qiankun 的微前端最佳实践（图文并茂） - 应用部署篇](https://github.com/a1029563229/blogs/blob/master/BestPractices/qiankun/Deploy.md)
+* [万字长文+图文并茂+全面解析微前端框架 qiankun 源码 - qiankun 篇](https://github.com/a1029563229/blogs/blob/master/Source-Code/qiankun/1.md)
+* [万字长文-落地微前端 qiankun 理论与实践指北](https://juejin.cn/post/7069566144750813197)
+* [字节跳动是如何落地微前端的](https://juejin.cn/post/7016911648656982024)
+* [基于 iframe 的微前端框架 —— 擎天](https://juejin.cn/post/7143038795816910878)
+* [百度关于 EMP 的探索：落地生产可用的微前端架构](https://xie.infoq.cn/article/e16fa87fa8726992a98bb7c99)
+* [微前端在得物客服域的实践 ｜ 那么多微前端框架，为啥我们选Qiankun + MF](https://mp.weixin.qq.com/s?__biz=Mzg3OTU5MjY5NQ==&mid=2247485646&idx=2&sn=7c3c9a4433ec3dd9532e2e983260f76d&chksm=cf035d56f874d440da5af431dbb83f1a45d812dbcc70e16cc741a58a5c30476f24ece813c1a8&scene=21#wechat_redirect)
+* [京东出品微前端框架MicroApp介绍与落地实践](https://mp.weixin.qq.com/s?__biz=MzUyMDAxMjQ3Ng==&mid=2247496839&idx=1&sn=b2b22a43ecbd93167edeaf86c0683316&chksm=f9f26354ce85ea42f85a5a690aca843dd23f1c2f30c11b5f931dd0c918d388848807a78f1424&scene=21#wechat_redirect)
+* [爱番番微前端框架落地实践](https://xie.infoq.cn/article/7dd674911efae889bef4115f8)
+* [推开“微前端”的门](https://xie.infoq.cn/article/dc7127af9605a9138d256aeb3)
