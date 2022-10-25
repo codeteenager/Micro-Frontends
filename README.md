@@ -39,3 +39,6 @@ https://micro-frontends.org/
 * [如何设计实现微前端框架-qiankun](https://jishuin.proginn.com/p/763bfbd5a3d8)
 * [目标是最完善的微前端解决方案 - qiankun 2.0](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651236407&idx=2&sn=79907657130b49d5c805bbf392bdc39b&chksm=bd4971b38a3ef8a5b4a113eca34834c41b25652e4bba72f09ad718a778723595b790e97b36aa&scene=21#wechat_redirect)
 * [iframe 接班人-微前端框架 qiankun 在中后台系统实践](https://zdk.f2er.net/wx/detail/5f7115430ab9263e765c3e25)
+* [微前端在网易七鱼的实践](https://juejin.cn/post/6906737928102543374)
+* [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
+
