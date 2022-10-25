@@ -35,3 +35,4 @@ https://micro-frontends.org/
 * [京东出品微前端框架MicroApp介绍与落地实践](https://mp.weixin.qq.com/s?__biz=MzUyMDAxMjQ3Ng==&mid=2247496839&idx=1&sn=b2b22a43ecbd93167edeaf86c0683316&chksm=f9f26354ce85ea42f85a5a690aca843dd23f1c2f30c11b5f931dd0c918d388848807a78f1424&scene=21#wechat_redirect)
 * [爱番番微前端框架落地实践](https://xie.infoq.cn/article/7dd674911efae889bef4115f8)
 * [推开“微前端”的门](https://xie.infoq.cn/article/dc7127af9605a9138d256aeb3)
+* [如何设计实现微前端框架-qiankun](https://jishuin.proginn.com/p/763bfbd5a3d8)
