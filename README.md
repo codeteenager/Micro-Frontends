@@ -47,3 +47,4 @@ https://micro-frontends.org/
 * [一体化微前端研发平台的探索和实践](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651247505&idx=1&sn=b3b44380916b3d6ec183eb26acea4fe7&chksm=bd490a158a3e8303cb1a6e2b5439022566e212c6de018459a5fbab1b8463360ed34fc7f76a55#rd)
 * [美团质效工具产品的微前端实践](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651247615&idx=1&sn=0027f14e7b00fffdbbd55cd8a91c2577&chksm=bd490a7b8a3e836d51991745da153538c0d48afb0cfb0a411cc764123b941c8166ba68c2af43#rd)
 * [从场景倒推我们要什么样的微前端体系](https://juejin.cn/post/6981638032768106526#heading-5)
+* [微前端架构体系思考与实践](https://sunnews.cc/zhihu/518149/%E3%80%90%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E3%80%91%E5%BE%AE%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB%E6%80%9D%E8%80%83%E4%B8%8E%E5%AE%9E%E8%B7%B5.html)
