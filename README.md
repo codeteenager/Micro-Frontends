@@ -42,4 +42,5 @@ https://micro-frontends.org/
 * [微前端在网易七鱼的实践](https://juejin.cn/post/6906737928102543374)
 * [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 * [一体化微前端研发平台的探索和实践](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651247505&idx=1&sn=b3b44380916b3d6ec183eb26acea4fe7&chksm=bd490a158a3e8303cb1a6e2b5439022566e212c6de018459a5fbab1b8463360ed34fc7f76a55#rd)
-
+* [美团质效工具产品的微前端实践](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651247615&idx=1&sn=0027f14e7b00fffdbbd55cd8a91c2577&chksm=bd490a7b8a3e836d51991745da153538c0d48afb0cfb0a411cc764123b941c8166ba68c2af43#rd)
+* [从场景倒推我们要什么样的微前端体系](https://juejin.cn/post/6981638032768106526#heading-5)
