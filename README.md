@@ -41,4 +41,5 @@ https://micro-frontends.org/
 * [iframe 接班人-微前端框架 qiankun 在中后台系统实践](https://zdk.f2er.net/wx/detail/5f7115430ab9263e765c3e25)
 * [微前端在网易七鱼的实践](https://juejin.cn/post/6906737928102543374)
 * [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
+* [一体化微前端研发平台的探索和实践](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651247505&idx=1&sn=b3b44380916b3d6ec183eb26acea4fe7&chksm=bd490a158a3e8303cb1a6e2b5439022566e212c6de018459a5fbab1b8463360ed34fc7f76a55#rd)
 
