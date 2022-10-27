@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="/lib/umd/single-spa.js"></script>
+    <script>
+        //参数，1)注册应用的名字，2)加载应用的方法，必须是返回一个promise方法
+        //默认去加载
+        singleSpa.registerApplication('app1', async () => {
+            //这个函数需要返回结果
+            return {
+                bootstrap: async () => {
+
+                },
+                mount: async () => {
+
+                },
+                unmount: async () => { 
+
+                }
+            }
+
+        },
+            location => location.hash.startsWith('#/app1'),
+            { store: { name: 'zhufeng' } }
+        );
+        singleSpa.start(); //启动这个应用，挂载这个应用
+    </script>
+</body>
+
+</html>
