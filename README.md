@@ -50,3 +50,4 @@ https://micro-frontends.org/
 * [从场景倒推我们要什么样的微前端体系](https://juejin.cn/post/6981638032768106526#heading-5)
 * [微前端架构体系思考与实践](https://sunnews.cc/zhihu/518149/%E3%80%90%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E3%80%91%E5%BE%AE%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB%E6%80%9D%E8%80%83%E4%B8%8E%E5%AE%9E%E8%B7%B5.html)
 * [开源 | 携程度假零成本微前端框架-零界](https://mp.weixin.qq.com/s/AfqA2hpbziweesR3QstYdA)
+* [微前端在网易LOFTER中后台业务中的实践（一）——微前端沙箱及微前端应用平台](https://zhuanlan.zhihu.com/p/386839162)
