@@ -61,3 +61,4 @@ https://micro-frontends.org/
 * [微前端如何帮助我们专注业务需求](https://www.infoq.cn/article/saMEwYX67Hm2f2AtkgGc)
 * [面向大型工作台的微前端解决方案 icestark](https://zhuanlan.zhihu.com/p/88449415/)
 * [前端搞微前端 | 鲲尘 - 如何在大型应用中架构设计微前端方案](https://zhuanlan.zhihu.com/p/197885919)
+* [前端搞微前端 | 时光 - 如何在字节设计与实践微前端沙盒](https://zhuanlan.zhihu.com/p/189972873)
