@@ -53,7 +53,6 @@ https://micro-frontends.org/
 * [微前端在网易LOFTER中后台业务中的实践（一）——微前端沙箱及微前端应用平台](https://zhuanlan.zhihu.com/p/386839162)
 * [微前端在民生 APaaS/PSET 平台的探索与实践](https://xie.infoq.cn/article/a5979a2955050b9201f192c11)
 * [微前端技术在游戏平台后台系统的实践](https://xie.infoq.cn/article/56a9596352fbaf52f8cef2711)
-* [如何落地微前端一体化运营工作台](https://zhuanlan.zhihu.com/p/161084899)
 * [ICE 在微前端的探索](https://zhuanlan.zhihu.com/p/94847293)
 * [细述字节的微前端体系](https://jishuin.proginn.com/p/763bfbd65bf0)
 * [飞马-中后台微前端页面搭建平台](https://zhuanlan.zhihu.com/p/146709641)
