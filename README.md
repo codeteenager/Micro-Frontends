@@ -66,3 +66,4 @@ https://micro-frontends.org/
 * [云前端新物种-微前端体系](https://developer.aliyun.com/article/747667?spm=a2c6h.14164896.0.0.1d024498fLZGwT)
 * [拥抱云时代的前端开发架构—微前端](https://developer.aliyun.com/article/736701)
 * [每日优鲜供应链前端团队微前端改造](https://juejin.cn/post/6844903943873675271)
+* [微前端技术原理](https://juejin.cn/post/7099339595233361934)
