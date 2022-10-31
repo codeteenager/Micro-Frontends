@@ -61,3 +61,6 @@ https://micro-frontends.org/
 * [面向大型工作台的微前端解决方案 icestark](https://zhuanlan.zhihu.com/p/88449415/)
 * [前端搞微前端 | 鲲尘 - 如何在大型应用中架构设计微前端方案](https://zhuanlan.zhihu.com/p/197885919)
 * [前端搞微前端 | 时光 - 如何在字节设计与实践微前端沙盒](https://zhuanlan.zhihu.com/p/189972873)
+* [标准微前端架构在蚂蚁的落地实践](https://developer.aliyun.com/article/742576?spm=a2c6h.12873581.0.0.2ebf3b22hinzwf)
+* [云前端新物种-微前端体系](https://developer.aliyun.com/article/747667?spm=a2c6h.14164896.0.0.1d024498fLZGwT)
+* [拥抱云时代的前端开发架构—微前端](https://developer.aliyun.com/article/736701)
