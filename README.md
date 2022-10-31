@@ -63,3 +63,4 @@ https://micro-frontends.org/
 * [标准微前端架构在蚂蚁的落地实践](https://developer.aliyun.com/article/742576?spm=a2c6h.12873581.0.0.2ebf3b22hinzwf)
 * [云前端新物种-微前端体系](https://developer.aliyun.com/article/747667?spm=a2c6h.14164896.0.0.1d024498fLZGwT)
 * [拥抱云时代的前端开发架构—微前端](https://developer.aliyun.com/article/736701)
+* [每日优鲜供应链前端团队微前端改造](https://juejin.cn/post/6844903943873675271)
