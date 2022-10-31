@@ -11,7 +11,6 @@ https://micro-frontends.org/
 ## 微前端框架
 * Single-SPA：是一个用于前端微服务化的JavaScript前端解决方案，实现了路由劫持和应用加载，但是没有处理样式隔离，js执行隔离。https://github.com/single-spa/single-spa
 * qiankun：基于Single-SPA提供了更多开箱即用的API（single-spa + sandbox + import-html-entry），做到了与技术栈无关，并且接入简单，靠的是协议接入（子应用必须导出bootstrap、mount、unmount方法）。 https://github.com/umijs/qiankun
-* 腾讯的hel-micro：https://github.com/tnfe/hel
 * 腾讯的无界：https://github.com/Tencent/wujie
 * 美团的Bifrost：[Bifrost微前端框架](https://tech.meituan.com/2019/12/26/meituan-bifrost.html)
 * 字节的Garfish：https://github.com/modern-js-dev/garfish
