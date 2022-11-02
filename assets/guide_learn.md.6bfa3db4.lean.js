@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as a,d as t}from"./app.faaf2d4f.js";const d=JSON.parse('{"title":"\u76F8\u5173\u6587\u7AE0","description":"","frontmatter":{},"headers":[],"relativePath":"guide/learn.md"}'),l={name:"guide/learn.md"},i=t("",2),n=[i];function f(h,c,o,b,s,p){return a(),r("div",null,n)}const _=e(l,[["render",f]]);export{d as __pageData,_ as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.faaf2d4f.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/qiankun.md"}'),n={name:"guide/qiankun.md"};function r(o,s,c,i,d,p){return a(),t("div")}const m=e(n,[["render",r]]);export{u as __pageData,m as default};
