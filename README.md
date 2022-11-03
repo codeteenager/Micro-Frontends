@@ -14,6 +14,7 @@ https://micro-frontends.org/
 * Single-SPA：是一个用于前端微服务化的JavaScript前端解决方案，实现了路由劫持和应用加载，但是没有处理样式隔离，js执行隔离。https://github.com/single-spa/single-spa
 * qiankun：基于Single-SPA提供了更多开箱即用的API（single-spa + sandbox + import-html-entry），做到了与技术栈无关，并且接入简单，靠的是协议接入（子应用必须导出bootstrap、mount、unmount方法）。 https://github.com/umijs/qiankun
 * 腾讯的无界：https://github.com/Tencent/wujie
+* 腾讯的hel-micro：https://github.com/tnfe/hel
 * 美团的Bifrost：[Bifrost微前端框架](https://tech.meituan.com/2019/12/26/meituan-bifrost.html)
 * 字节的Garfish：https://github.com/modern-js-dev/garfish
 * 阿里的icestark：https://github.com/ice-lab/icestark
@@ -38,13 +39,13 @@ https://micro-frontends.org/
 * [京东出品微前端框架MicroApp介绍与落地实践](https://mp.weixin.qq.com/s?__biz=MzUyMDAxMjQ3Ng==&mid=2247496839&idx=1&sn=b2b22a43ecbd93167edeaf86c0683316&chksm=f9f26354ce85ea42f85a5a690aca843dd23f1c2f30c11b5f931dd0c918d388848807a78f1424&scene=21#wechat_redirect)
 * [爱番番微前端框架落地实践](https://xie.infoq.cn/article/7dd674911efae889bef4115f8)
 * [推开“微前端”的门](https://xie.infoq.cn/article/dc7127af9605a9138d256aeb3)
-* [如何设计实现微前端框架-qiankun](https://jishuin.proginn.com/p/763bfbd5a3d8)
+* [如何设计实现微前端框架-qiankun](https://juejin.cn/post/6846687602439897101)
 * [目标是最完善的微前端解决方案 - qiankun 2.0](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651236407&idx=2&sn=79907657130b49d5c805bbf392bdc39b&chksm=bd4971b38a3ef8a5b4a113eca34834c41b25652e4bba72f09ad718a778723595b790e97b36aa&scene=21#wechat_redirect)
 * [iframe 接班人-微前端框架 qiankun 在中后台系统实践](https://zdk.f2er.net/wx/detail/5f7115430ab9263e765c3e25)
 * [微前端在网易七鱼的实践](https://juejin.cn/post/6906737928102543374)
 * [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 * [网易严选企业级微前端解决方案与落地实践](https://www.infoq.cn/article/3azwpv801cuauhiskowb)
-* [分享一个美业微前端的落地方案](https://jishuin.proginn.com/p/763bfbd7271c)
+* [有赞美业微前端的落地总结](https://mp.weixin.qq.com/s/flE6nJWtv4T4GlA2fQv7IA)
 * [前端搞微前端 | 伟林 - 如何分三步实施微前端](https://zhuanlan.zhihu.com/p/187187829)
 * [一体化微前端研发平台的探索和实践](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651247505&idx=1&sn=b3b44380916b3d6ec183eb26acea4fe7&chksm=bd490a158a3e8303cb1a6e2b5439022566e212c6de018459a5fbab1b8463360ed34fc7f76a55#rd)
 * [美团质效工具产品的微前端实践](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651247615&idx=1&sn=0027f14e7b00fffdbbd55cd8a91c2577&chksm=bd490a7b8a3e836d51991745da153538c0d48afb0cfb0a411cc764123b941c8166ba68c2af43#rd)
@@ -67,3 +68,10 @@ https://micro-frontends.org/
 * [拥抱云时代的前端开发架构—微前端](https://developer.aliyun.com/article/736701)
 * [每日优鲜供应链前端团队微前端改造](https://juejin.cn/post/6844903943873675271)
 * [微前端技术原理](https://juejin.cn/post/7099339595233361934)
+* [基于 qiankun 的微前端应用实践](https://zhuanlan.zhihu.com/p/356225293?utm_id=0)
+* [浅谈微前端在滴滴车服中的应用实践](https://developer.aliyun.com/article/762842)
+* [如何设计微前端中的主子路由调度](https://mp.weixin.qq.com/s/TAXP7ipDdtb2Jb-L3QHszA)
+* [如何“取巧”实现一个微前端沙箱？](https://mp.weixin.qq.com/s/Mg3fU0WvZUQnlWHdxc-b5A)
+* [Garfish 微前端实现原理](https://zhuanlan.zhihu.com/p/428023234)
+* [快手运营中台的通用微前端治理框架（上）](https://mp.weixin.qq.com/s/pcma_ew6HYkkoB5YJh2pyA)
+* [快手运营中台的通用微前端治理框架（下）](https://mp.weixin.qq.com/s/03Q0hAf8fNXxfsUl_w65QQ)
