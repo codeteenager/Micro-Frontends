@@ -28,6 +28,10 @@ module.exports = {
                         {
                             text: "框架",
                             link: "/guide/framework",
+                        },
+                        {
+                            text: "模块联邦",
+                            link: "/guide/module-federation",
                         }
                     ],
                 },

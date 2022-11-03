@@ -8,7 +8,7 @@ const filePath = {
 
 function runChild(){
     Object.values(filePath).forEach((item)=>{
-        childProcess.spawn(`cd ${item} && npm start`,{
+        childProcess.spawn(`cd ${item} && npm run serve`,{
             stdio:'inherit',
             shell: true
         });

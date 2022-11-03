@@ -1,0 +1,22 @@
+{
+  "name": "micro-frontends",
+  "version": "1.0.0",
+  "description": "微前端实践",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node ./build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeteenager/Micro-Frontends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeteenager/Micro-Frontends/issues"
+  },
+  "homepage": "https://github.com/codeteenager/Micro-Frontends#readme"
+}

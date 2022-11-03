@@ -11,8 +11,11 @@
 * EMP：https://github.com/efoxTeam/emp
 * 阿里云：https://github.com/aliyun/alibabacloud-alfa
 
-## 微前端解决方案
-目前微前端主要有两种解决方案：iframe 方案和 single-spa 方案
+## 实现微前端的几种方式：
+* 基于single-spa的qiankun：single-spa的实现原理是首先在基座应用中注册所有App的路由，single-spa保存各子应用的路由映射关系，充当微前端控制器Controler，URL响应时，匹配子应用路由并加载渲染子应用。相比于single-spa，qiankun他解决了JS沙盒环境，不需要我们自己去进行处理。在single-spa的开发过程中，我们需要自己手动的去写调用子应用JS的方法（如上面的 createScript方法），而qiankun不需要，乾坤只需要你传入响应的apps的配置即可，会帮助我们去加载。
+* 基于WebComponent的micro-app：micro-app并没有沿袭single-spa的思路，而是借鉴了WebComponent的思想，通过CustomElement结合自定义的ShadowDom，将微前端封装成一个类WebComponent组件，从而实现微前端的组件化渲染。并且由于自定义ShadowDom的隔离特性，micro-app不需要像single-spa和qiankun一样要求子应用修改渲染逻辑并暴露出方法，也不需要修改webpack配置，是目前市面上接入微前端成本最低的方案。
+* 基于webpack5提供的Module Federation的hel-micro框架：Module Federation是Webpack5提出的概念，module federation用来解决多个应用之间代码共享的问题，让我们更加优雅的实现跨应用的代码共享。
+* 基于iframe的wujie
 
 ### iframe方案
 iframe 大家都很熟悉，使用简单方便，提供天然的 js/css 隔离，也带来了数据传输的不便，一些数据无法共享（主要是本地存储、全局变量和公共插件），两个项目不同源（跨域）情况下数据传输需要依赖 postMessage 。

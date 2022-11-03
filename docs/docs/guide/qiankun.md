@@ -1,6 +1,14 @@
 # qiankun源码解析
 > qiankun的官网 https://qiankun.umijs.org/zh
 
+qiankun的优势：
+* 基于 single-spa 封装，提供了更加开箱即用的 API。
+* 技术栈无关，任意技术栈的应用均可 使用/接入，不论是 React/Vue/Angular/JQuery 还是其他等框架。
+* HTML Entry 接入方式，让你接入微应用像使用 iframe 一样简单。
+* 样式隔离，确保微应用之间样式互相不干扰。
+* JS 沙箱，确保微应用之间 全局变量/事件 不冲突。
+* 资源预加载，在浏览器空闲时间预加载未打开的微应用资源，加速微应用打开速度。
+
 首先我们先去Github下载qiankun的源码 https://github.com/umijs/qiankun ，整个工程采用TS来编写的。
 
 ![](/application/qiankun/1.jpg)

@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service');
-const packageName = require('./package.json').name;
+// const packageName = require('./package.json').name;
 
 module.exports = defineConfig({
   transpileDependencies: true,
@@ -12,8 +12,11 @@ module.exports = defineConfig({
   configureWebpack: {
     output: {
       library: 'vueApp',
-      libraryTarget: 'umd',
-      jsonpFunction: `webpackJsonp_${packageName}`,
+      libraryTarget: 'umd'
+      // jsonpFunction: `webpackJsonp_${packageName}`,
+    },
+    externals: {
+      vue: "Vue"
     }
   }
 })
