@@ -27,11 +27,6 @@ https://micro-frontends.org/
 * [微前端在银行系统中的实践](https://blog.csdn.net/zybank_IT/article/details/120002659)
 * [如何落地微前端一体化运营工作台](https://www.bilibili.com/read/cv7859354/)
 * [微前端在金融的实践应用](https://mp.weixin.qq.com/s/emZbpCSYtUdvPeZ_aUyVEw)
-* [基于 qiankun 的微前端最佳实践（万字长文） - 从 0 到 1 篇](https://github.com/a1029563229/blogs/blob/master/BestPractices/qiankun/Start.md)
-* [基于 qiankun 的微前端最佳实践（图文并茂） - 应用间通信篇](https://github.com/a1029563229/blogs/blob/master/BestPractices/qiankun/Communication.md)
-* [基于 qiankun 的微前端最佳实践（图文并茂） - 应用部署篇](https://github.com/a1029563229/blogs/blob/master/BestPractices/qiankun/Deploy.md)
-* [万字长文+图文并茂+全面解析微前端框架 qiankun 源码 - qiankun 篇](https://github.com/a1029563229/blogs/blob/master/Source-Code/qiankun/1.md)
-* [万字长文-落地微前端 qiankun 理论与实践指北](https://juejin.cn/post/7069566144750813197)
 * [字节跳动是如何落地微前端的](https://juejin.cn/post/7016911648656982024)
 * [基于 iframe 的微前端框架 —— 擎天](https://juejin.cn/post/7143038795816910878)
 * [百度关于 EMP 的探索：落地生产可用的微前端架构](https://xie.infoq.cn/article/e16fa87fa8726992a98bb7c99)
@@ -75,3 +70,6 @@ https://micro-frontends.org/
 * [Garfish 微前端实现原理](https://zhuanlan.zhihu.com/p/428023234)
 * [快手运营中台的通用微前端治理框架（上）](https://mp.weixin.qq.com/s/pcma_ew6HYkkoB5YJh2pyA)
 * [快手运营中台的通用微前端治理框架（下）](https://mp.weixin.qq.com/s/03Q0hAf8fNXxfsUl_w65QQ)
+* [微前端技术在商羚商户端的实战](https://jelly.jd.com/article/603c5a026d84e3013e8846f6)
+* [如何打造跨团队微前端生态](http://docs.chenleileicode.com/xmind/%E5%A6%82%E4%BD%95%E6%89%93%E9%80%A0%E8%B7%A8%E5%9B%A2%E9%98%9F%E5%BE%AE%E5%89%8D%E7%AB%AF%E7%94%9F%E6%80%81/)
+
