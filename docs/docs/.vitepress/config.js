@@ -36,33 +36,13 @@ module.exports = {
                     ],
                 },
                 {
-                    text: "运行时框架",
+                    text: "基础设施",
                     collapsible: true,
                     items: [
                         {
-                            text: "应用加载",
-                            link: "/guide/load",
-                        },
-                        {
-                            text: "生命周期",
-                            link: "/guide/lifecycles",
-                        },
-                        {
-                            text: "路由同步",
-                            link: "/guide/route",
-                        },
-                        {
-                            text: "应用通信",
-                            link: "/guide/message",
-                        },
-                        {
-                            text: "沙箱隔离",
-                            link: "/guide/sandbox",
-                        },
-                        {
-                            text: "异常处理",
-                            link: "/guide/error",
-                        },
+                            text: "运行时框架",
+                            link: "/guide/runtime",
+                        }
                     ],
                 },
                 {

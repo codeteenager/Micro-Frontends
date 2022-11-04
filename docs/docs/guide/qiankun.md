@@ -982,6 +982,17 @@ export function prefetchImmediately(apps: AppMetadata[], opts?: ImportEntryOpts)
 }
 ```
 
+## 提取公共库
+提取公共依赖可以参考：[qiankun 如何提取出公共的依赖库](https://blog.csdn.net/Lyrelion/article/details/124896392)
+
+* qiankun不建议共享依赖，担心原型链污染等问题。 single-spa推荐共享大型依赖，需要小心处理污染问题，它们都是推荐使用webpack的external来共享依赖库。
+* 我们也推荐共享大的公共依赖，也是使用webpack的external来共享依赖库，不过是每个子应用加载时都重复再加载一次库，相当于节省了相同库的下载时间，也保证了不同子应用间不会产生原型链污染，属于折中的方案。
+
+
+
+## 相关文章
+* [微前端框架 之 qiankun 从入门到源码分析](https://mp.weixin.qq.com/s?__biz=MzA3NTk4NjQ1OQ==&mid=2247484411&idx=1&sn=7e67d2843b8576fce01b18269f33f7e9&chksm=9f69608fa81ee99954b6b5a1e3eb40e194c05c1edb504baac27577a0217f61c78ff9d0bb7e23&token=165646905&lang=zh_CN#rd)
+
 
 
 
