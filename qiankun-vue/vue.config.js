@@ -16,7 +16,8 @@ module.exports = defineConfig({
       // jsonpFunction: `webpackJsonp_${packageName}`,
     },
     externals: {
-      vue: "Vue"
+      vue: "Vue",
+      // 'vue-router': 'VueRouter',
     }
   }
 })

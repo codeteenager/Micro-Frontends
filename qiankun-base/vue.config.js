@@ -3,7 +3,11 @@ module.exports = defineConfig({
   transpileDependencies: true,
   configureWebpack: {
     externals: {
-      vue: "Vue"
+      vue: "Vue",
+      'vue-router': 'VueRouter',
+      // vuex: 'Vuex',
+      // 'element-ui': 'ELEMENT',
+      // 'axios': 'axios',
     }
   }
 })

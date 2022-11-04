@@ -9,4 +9,4 @@
 * [如何在大型应用里应用微前端](/Micro-Frontends/application/pdf/如何在大型应用里应用微前端.pdf)
 * [微前端架构体系](/Micro-Frontends/application/pdf/微前端架构体系.pdf)
 * [微前端在字节跳动的落地](/Micro-Frontends/application/pdf/微前端在字节跳动的落地.pdf)
-* [EMP微前端解决方案.](/Micro-Frontends/application/pdf/EMP微前端解决方案..pdf)
+* [EMP微前端解决方案](/Micro-Frontends/application/pdf/EMP微前端解决方案.pdf)

@@ -18,37 +18,23 @@
 * 基于iframe的wujie
 
 ### iframe方案
-iframe 大家都很熟悉，使用简单方便，提供天然的 js/css 隔离，也带来了数据传输的不便，一些数据无法共享（主要是本地存储、全局变量和公共插件），两个项目不同源（跨域）情况下数据传输需要依赖 postMessage 。
+qiankun技术圆桌中有一篇关于微前端[Why Not Iframe](https://www.yuque.com/kuitos/gky7yw/gesexv)的思考，主要有以下几点：
 
-iframe 有很多坑，但是大多都有解决的办法：
+* iframe 提供了浏览器原生的硬隔离方案，不论是样式隔离、 js 隔离这类问题统统都能被完美解决。
+* url 不同步。浏览器刷新 iframe url 状态丢失、后退前进按钮无法使用。
+* UI 不同步，DOM 结构不共享。想象一下屏幕右下角 1/4 的 iframe 里来一个带遮罩层的弹框，同时我们要求这个弹框要浏览器居中显示，还要浏览器 resize 时自动居中..
+* 全局上下文完全隔离，内存变量不共享。iframe 内外系统的通信、数据同步等需求，主应用的 cookie 要透传到根域名都不同的子应用中实现免登效果。
+* 慢。每次子应用进入都是一次浏览器上下文重建、资源重新加载的过程。
 
-1. 页面加载问题
-iframe 和主页面共享连接池，而浏览器对相同域的连接有限制，所以会影响页面的并行加载，阻塞 onload 事件。每次点击都需要重新加载，虽然可以采用 display:none 来做缓存，但是页面缓存过多会导致电脑卡顿。(无法解决)
+因为这些原因，最终大家都舍弃了 iframe 方案。
 
-2. 布局问题
-iframe 必须给一个指定的高度，否则会塌陷。
+### Web Component
+[MDN Web Components](https://developer.mozilla.org/zh-CN/docs/Web/Web_Components)由三项主要技术组成，它们可以一起使用来创建封装功能的定制元素，可以在你喜欢的任何地方重用，不必担心代码冲突。
+* Custom elements（自定义元素）：一组JavaScript API，允许您定义custom elements及其行为，然后可以在您的用户界面中按照需要使用它们。
+* Shadow DOM（影子DOM）：一组JavaScript API，用于将封装的“影子”DOM树附加到元素（与主文档DOM分开呈现）并控制其关联的功能。通过这种方式，您可以保持元素的功能私有，这样它们就可以被脚本化和样式化，而不用担心与文档的其他部分发生冲突。
+* HTML templates（HTML模板）： `<template>` 和 `<slot>` 元素使您可以编写不在呈现页面中显示的标记模板。然后它们可以作为自定义元素结构的基础被多次重用。
 
-解决办法：子项目实时计算高度并通过 postMessage 发送给主页面，主页面动态设置 iframe 高度。有些情况会出现多个滚动条，用户体验不佳。
-
-3. 弹窗及遮罩层问题
-弹窗只能在 iframe 范围内垂直水平居中，没法在整个页面垂直水平居中。
-* 解决办法1：通过与框架页面消息同步解决，将弹窗消息发送给主页面，主页面来弹窗，对原项目改动大且影响原项目的使用。
-* 解决办法2：修改弹窗的样式：隐藏遮罩层，修改弹窗的位置。
-
-4. iframe 内的 div 无法全屏
-弹窗的全屏，指的是在浏览器可视区全屏。这个全屏指的是占满用户屏幕。
-
-全屏方案，原生方法使用的是 Element.requestFullscreen()，插件：vue-fullscreen。当页面在 iframe 里面时，全屏会报错，且 dom 结构错乱。
-
-解决方案：iframe 标签设置 allow="fullscreen" 属性即可
-
-5. 浏览器前进/后退问题
-iframe 和主页面共用一个浏览历史，iframe 会影响页面的前进后退。大部分时候正常，iframe 多次重定向则会导致浏览器的前进后退功能无法正常使用。并且 iframe 页面刷新会重置（比如说从列表页跳转到详情页，然后刷新，会返回到列表页），因为浏览器的地址栏没有变化，iframe 的 src 也没有变化。
-
-6. iframe 加载失败的情况不好处理
-非同源的 iframe 在火狐及 chorme 都不支持 onerror 事件。
-* 解决办法1：onload 事件里面判断页面的标题，是否 404 或者 500
-* 解决办法2：使用 try catch 解决此问题，尝试获取 contentDocument 时将抛出异常。
+但是兼容性很差，查看[can i use WebComponents](https://caniuse.com/?search=WebComponents)。
 
 ### single-spa 微前端方案
 spa 单页应用时代，我们的页面只有 index.html 这一个 html 文件，并且这个文件里面只有一个内容标签 <div id="app"></div>，用来充当其他内容的容器，而其他的内容都是通过 js 生成的。也就是说，我们只要拿到了子项目的容器 <div id="app"></div> 和生成内容的 js，插入到主项目，就可以呈现出子项目的内容。
