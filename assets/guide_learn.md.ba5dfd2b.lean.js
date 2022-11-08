@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as a,a as t}from"./app.975ef128.js";const _=JSON.parse('{"title":"\u76F8\u5173\u6587\u7AE0","description":"","frontmatter":{},"headers":[],"relativePath":"guide/learn.md"}'),l={name:"guide/learn.md"},i=t("",2),n=[i];function f(h,c,o,p,s,b){return a(),r("div",null,n)}const d=e(l,[["render",f]]);export{_ as __pageData,d as default};
