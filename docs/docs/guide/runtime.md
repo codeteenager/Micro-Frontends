@@ -149,6 +149,10 @@ HTML Entry 是由 [import-html-entry](https://github.com/kuitos/import-html-entr
 
 ![](/application/runtime/1.webp)
 
+>了解更多
+* [HTML Entry 源码分析](https://blog.csdn.net/m0_66439275/article/details/122792280)
+* [揭开 import-html-entry 面纱](https://blog.csdn.net/qq_41800366/article/details/122093720)
+
 
 ## 路由同步
 子应用注册的时候，提供子应用激活规则 (路由字符串 或 函数)。因此，监听 hashchange 和 popstate 事件，在事件回调函数中，根据注册的子应用激活规则，卸载/激活子应用。

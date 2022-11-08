@@ -10,3 +10,4 @@
 * [微前端架构体系](/Micro-Frontends/application/pdf/微前端架构体系.pdf)
 * [微前端在字节跳动的落地](/Micro-Frontends/application/pdf/微前端在字节跳动的落地.pdf)
 * [EMP微前端解决方案](/Micro-Frontends/application/pdf/EMP微前端解决方案.pdf)
+* [基于模块联邦SDK化的大型前端应用实践](/Micro-Frontends/application/pdf/基于模块联邦SDK化的大型前端应用实践.pdf)
