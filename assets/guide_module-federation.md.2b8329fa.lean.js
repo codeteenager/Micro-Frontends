@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a}from"./app.da634d1a.js";const m=JSON.parse('{"title":"\u6A21\u5757\u8054\u90A6","description":"","frontmatter":{},"headers":[],"relativePath":"guide/module-federation.md"}'),i={name:"guide/module-federation.md"},r=a("",8),l=[r];function n(d,s,p,u,c,_){return o(),t("div",null,l)}const f=e(i,[["render",n]]);export{m as __pageData,f as default};
