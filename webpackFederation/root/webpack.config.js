@@ -3,13 +3,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './src/main.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     module: {
         rules: [
+            {
+                test: /\.vue$/,
+                use: [{ loader: 'vue-loader' }]
+            },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
@@ -28,7 +32,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html'
+            template: './index.html'
         })
     ],
     devServer: {

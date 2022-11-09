@@ -17,7 +17,7 @@ module.exports = defineConfig({
     },
     externals: {
       vue: "Vue",
-      // 'vue-router': 'VueRouter',
+      'vue-router': 'VueRouter',
     }
   }
 })
