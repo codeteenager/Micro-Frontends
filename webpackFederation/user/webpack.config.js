@@ -43,10 +43,11 @@ module.exports = {
     },
     plugins: [
         new ModuleFederationPlugin({
-            name: 'root',
+            name: 'user',
             filename: 'remoteEntry.js',
-            remotes:{
-                user: 'user@http://localhost:8091/remoteEntry.js'
+            library: { type: "var", name: "user" },
+            exposes: {
+                './UserList': './src/components/UserList.vue',
             }
         }),
         new VueLoaderPlugin(),
@@ -59,7 +60,7 @@ module.exports = {
         static: {
             directory: path.join(__dirname, 'dist'),
         },
-        port: 8092,
+        port: 8091,
         open: true,
         hot: true
     }

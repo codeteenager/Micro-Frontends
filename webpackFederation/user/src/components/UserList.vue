@@ -1,15 +1,12 @@
 <template>
   <div>
-    {{ message }}
-    <user-list></user-list>
+    用户列表
   </div>
 </template>
 <script>
 export default {
-  components: { UserList: () => import("user/UserList") },
   data() {
     return {
-      message: "消息",
     };
   },
 };

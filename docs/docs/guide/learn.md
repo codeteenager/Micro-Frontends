@@ -50,4 +50,5 @@
 * [微前端技术在商羚商户端的实战](https://jelly.jd.com/article/603c5a026d84e3013e8846f6)
 * [如何打造跨团队微前端生态](http://docs.chenleileicode.com/xmind/%E5%A6%82%E4%BD%95%E6%89%93%E9%80%A0%E8%B7%A8%E5%9B%A2%E9%98%9F%E5%BE%AE%E5%89%8D%E7%AB%AF%E7%94%9F%E6%80%81/)
 * [模块联邦sdk化微模块方案 - hel-micro](https://mp.weixin.qq.com/s/273LKniXapCNXjoVHnJBZA)
+* [基于 MF 的组件化共享工作流](https://mp.weixin.qq.com/s/u5oAcIYiGrl1qOujOYjzqw)
 

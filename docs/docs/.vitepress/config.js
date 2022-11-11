@@ -7,7 +7,7 @@ module.exports = {
         // logo: "/logo.svg",
         nav: [
             {
-                text: '首页',
+                text: '博文',
                 link: "/guide/introduction"
             }
         ],
