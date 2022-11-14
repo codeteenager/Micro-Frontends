@@ -2,6 +2,13 @@ module.exports = {
     title: '微前端',
     description: '微前端技术解析与实践',
     base: '/Micro-Frontends/',
+    head: [
+        ['link', { rel: 'icon', href: '/Micro-Frontends/favicon.ico' }]
+    ],
+    markdown: {
+        lineNumbers: true, //显示代码行数
+    },
+    lastUpdated: true,
     themeConfig: {
         // siteTitle: false,
         // logo: "/logo.svg",
