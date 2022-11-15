@@ -18,6 +18,8 @@ module.exports = {
                 link: "/guide/introduction"
             }
         ],
+        lastUpdatedText: '最近更新时间',
+        outlineTitle: '在本页面',
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2022-present Codeteenager'
