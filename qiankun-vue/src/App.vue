@@ -7,6 +7,15 @@
     <router-view />
   </div>
 </template>
+<script>
+export default {
+  mounted(){
+    const content = localStorage.getItem('data');
+    console.log(content);
+  }
+}
+</script>
+
 
 <style>
 #app {

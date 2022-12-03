@@ -997,6 +997,7 @@ export function prefetchImmediately(apps: AppMetadata[], opts?: ImportEntryOpts)
 * [基于 qiankun 的微前端最佳实践（图文并茂） - 应用部署篇](https://github.com/a1029563229/blogs/blob/master/BestPractices/qiankun/Deploy.md)
 * [万字长文+图文并茂+全面解析微前端框架 qiankun 源码 - qiankun 篇](https://github.com/a1029563229/blogs/blob/master/Source-Code/qiankun/1.md)
 * [万字长文-落地微前端 qiankun 理论与实践指北](https://juejin.cn/post/7069566144750813197)
+* [qiankun(微前端)快问快答](https://zhuanlan.zhihu.com/p/451425684?utm_id=0)
 
 
 
