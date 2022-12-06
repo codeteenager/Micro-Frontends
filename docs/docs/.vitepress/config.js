@@ -41,6 +41,14 @@ module.exports = {
                         {
                             text: "模块联邦",
                             link: "/guide/module-federation",
+                        },
+                        {
+                            text: "System.js",
+                            link: "/guide/systemjs",
+                        },
+                        {
+                            text: "single-spa使用",
+                            link: "/guide/use-single-spa",
                         }
                     ],
                 },

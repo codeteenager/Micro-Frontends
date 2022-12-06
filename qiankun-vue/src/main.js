@@ -26,6 +26,18 @@ if (!window.__POWERED_BY_QIANKUN__) {
   render();
 }
 
+// window.vueApp = {
+//   bootstrap() {
+
+//   },
+//   mount(props) {
+//     render(props);
+//   },
+//   unmount(props) {
+//     instance.$destroy();
+//   }
+// }
+
 //子组件的协议
 export async function bootstrap() {
 
