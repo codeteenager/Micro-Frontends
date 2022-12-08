@@ -4,6 +4,7 @@ module.exports = defineConfig({
   devServer: {
     port: 9003
   },
+  
   chainWebpack: config => {
     config.externals(["vue", "vue-router"])
   }
