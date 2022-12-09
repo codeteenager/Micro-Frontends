@@ -265,6 +265,58 @@ module.exports = (webpackConfigEnv, argv) => {
 ```
 
 ##  创建基于 Vue 的微应用
+同样使用create-single-spa命令来创建应用，输入名称，框架选择vue，生成vue2项目即可。
+
+配置webpack.config.js，配置externals，设置启动端口，同时将应用打包成system规范。
+```js
+module.exports = defineConfig({
+  transpileDependencies: true,
+  devServer: {
+    port: 9003
+  },
+  
+  chainWebpack: config => {
+    config.externals(["vue", "vue-router"])
+    config.output.libraryTarget('system');
+  }
+})
+```
+
+填写公共库
+```html
+<script type="systemjs-importmap">
+{
+ "imports": {
+     "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js",
+     "vue-router": "https://cdn.jsdelivr.net/npm/vue-router@3.0.7/dist/vue-router.min.js"
+ }
+}
+</script>
+```
+
+在容器中配置微应用引入地址
+```html
+<script type="systemjs-importmap">
+    {
+      "imports": {
+        "@codeteenager/child-vue": "//localhost:9003/js/app.js"
+      }
+    }
+  </script>
+```
+
+注册应用，将Vue项目的入口文件注册到基座应用中即可。
+```js
+ registerApplication({
+   name: "@codeteenager/child-vue",
+   app: () => System.import("@codeteenager/child-vue"),
+   activeWhen: ["/child-vue"]
+ })
+```
+
+如果遇到以下错误，将index.ejs中Content-Security-Policy meta注释掉即可。
+![](/application/foundation/3.png)
+
 
 ## 创建 Parcel 应用
 Parcel 用来创建公共 UI，涉及到跨框架共享 UI 时需要使用 Parcel。Parcel 的定义可以使用任何 single-spa 支持的框架，它也是单独的应用，需要单独启动，但是它不关联路由。Parcel 应用的模块访问地址也需要被添加到 import-map 中，其他微应用通过 System.import 方法进行引用。
@@ -352,8 +404,43 @@ async handleClick() {
 ## 布局引擎的使用
 布局引擎允许使用组件的方式声明顶层路由，访问什么样的地址，显示什么样的应用，这种方式类似react配置路由的方式，并且提供了更加便捷的路由API用来注册应用。
 
+首先安装布局引擎，`npm install single-spa-layout --save`，然后再index.ejs模板文件中配置路由。
+```html
+<template id="single-spa-layout">
+     <single-spa-router>
+      <!--    <application name="@study/navbar"></application> -->
+         <route default>
+             <application name="@single-spa/welcome"></application>
+           </route>
+         <route path="child">
+             <application name="@codeteenager/child"></application>
+           </route>
+         <route path="child-react">
+             <application name="@codeteenager/child-react"></application>
+           </route>
+         <route path="child-vue">
+             <application name="@codeteenager/child-vue"></application>
+           </route>
+       </single-spa-router>
+  </template>
+```
 
-以上就是将路由配置成组件的形式，他就是一种语法糖，最终还是需要通过registerApplication来注册应用。
+以上就是将路由配置成组件的形式，他就是一种语法糖，最终还是需要通过registerApplication来注册应用。将原本registerApplication注册应用的方式更改为以下方式。
+```js
+import { constructApplications, constructRoutes } from "single-spa-layout"
+// 获取路由配置对象
+const routes = constructRoutes(document.querySelector("#single-spa-layout"))
+// 获取路由信息数组
+const applications = constructApplications({
+  routes,
+  loadApp({ name }) {
+    return System.import(name)
+  }
+})
+
+// 遍历路由信息注册应用
+applications.forEach(registerApplication)
+```
 
 
 

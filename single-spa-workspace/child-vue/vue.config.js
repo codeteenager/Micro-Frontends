@@ -7,5 +7,6 @@ module.exports = defineConfig({
   
   chainWebpack: config => {
     config.externals(["vue", "vue-router"])
+    config.output.libraryTarget('system');
   }
 })
