@@ -52,4 +52,5 @@
 * [模块联邦sdk化微模块方案 - hel-micro](https://mp.weixin.qq.com/s/273LKniXapCNXjoVHnJBZA)
 * [基于 MF 的组件化共享工作流](https://mp.weixin.qq.com/s/u5oAcIYiGrl1qOujOYjzqw)
 * [企业级微前端研发模式的探索](https://mp.weixin.qq.com/s/rQJTRBXlc8TNqS7xU-vs6w)
+* [阿里本地生活微应用那些事](https://mp.weixin.qq.com/s/2ej4ScAOOihayOcAagHe8w)
 
