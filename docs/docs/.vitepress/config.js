@@ -22,7 +22,7 @@ module.exports = {
         outlineTitle: '在本页面',
         footer: {
             message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2022-present Codeteenager'
+            copyright: 'Copyright © 2022-present codeteenager'
         },
         socialLinks: [{ icon: "github", link: "https://github.com/codeteenager/Micro-Frontends" }],
         sidebar: {

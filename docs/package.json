@@ -10,6 +10,6 @@
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.19"
+    "vitepress": "^1.0.0-alpha.33"
   }
 }
